@@ -2,10 +2,6 @@
 
 - Website that can convert any long link and generate a shorter link that redirects to it
 
-![](https://github.com/aryanranderiya/URLShortener/assets/64796509/82c2d02c-e34e-441b-9032-f0b5a0b3c491)
-
-### [Try Here: links.aryanranderiya.com](https://links.aryanranderiya.com)
-
 ## Features
 
 - Dynamic shorter link Creation
@@ -26,10 +22,6 @@
   - Express.js
   - MongoDB
 
-- **Deploment**
-  - Vercel
-  - MongoDB Atlas
-
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -42,11 +34,11 @@ Before you begin, ensure you have met the following requirements:
 1.  **Clone the repository:**
 
     ```
-    git clone https://github.com/aryanranderiya/URLShortener.git
+    git clone https://github.com/Jp88Programmer/url_shortener.git
     ```
 
     ```
-    cd URLShortener
+    cd url_shortner
     ```
 
     <br>
@@ -68,7 +60,7 @@ Before you begin, ensure you have met the following requirements:
 - Install Dependencies in Frontend
 
   ```
-  cd Frontend/react-frontend
+  cd Frontend
   ```
 
   ```
@@ -82,14 +74,14 @@ Before you begin, ensure you have met the following requirements:
     - Add the link to your MongoDB connection string and your desired port.
     ```
     MONGO_DB = ""
-    PORT=3000
+    PORT=9090
     ```
 
 <br>
 
 1.  **Start Server**
 
-    > After Navigating to _URLShortener/Backend_ using _cd Backend'_
+    > After Navigating to url_shortener/Backend_ using _cd Backend'_
 
     ```
     cd api
@@ -101,7 +93,7 @@ Before you begin, ensure you have met the following requirements:
 
     <br>
 
-    > After Navigating to _URLShortener/Frontend/react-frontend_ using _cd Frontend/react-frontend'_
+    > After Navigating to _url_shortener/Frontend_ using _cd Frontend/react-frontend'_
 
     ```
     cd src
@@ -120,6 +112,5 @@ Before you begin, ensure you have met the following requirements:
     npm run build
   ```
 - No need to Deploy the react frontend as the Backend will automatically serve the frontend from src/build
-- Replace all hardcoded URL's from the code
 
 ### Happy coding!
